@@ -1,24 +1,24 @@
 {
     "police_management": {
         "title": "Politiledelsessystem",
-        "access_denied": "Du har ikke tillatelse til å få tilgang til dette systemet.",
+        "access_denied": "Du har ikke tilgang til dette systemet.",
         "location_required": "Du må være på en politistasjon for å få tilgang til ledelsessystemet.",
         "invalid_callsign": "Ugyldig kallesignalformat. Må være mellom 2–10 tegn.",
         "callsign_pattern": "Kallesignal kan kun inneholde bokstaver, tall og bindestreker.",
         "callsign_taken": "Kallesignalet \"{callsign}\" er allerede i bruk.",
-        "callsign_updated": "Kallesignal oppdatert.",
-        "callsign_failed": "Kunne ikke oppdatere kallesignal.",
-        "rank_updated": "Offisersgrad oppdatert.",
-        "rank_failed": "Kunne ikke oppdatere offisersgrad.",
-        "officer_terminated": "Offiser avsluttet.",
-        "terminate_failed": "Kunne ikke avslutte offiser.",
+        "callsign_updated": "Kallesignalet ble oppdatert.",
+        "callsign_failed": "Kunne ikke oppdatere kallesignalet.",
+        "rank_updated": "Offiserens grad ble oppdatert.",
+        "rank_failed": "Kunne ikke oppdatere offiserens grad.",
+        "officer_terminated": "Offiseren ble avskjediget.",
+        "terminate_failed": "Kunne ikke avskjedige offiseren.",
         "officer_added": "Offiser lagt til.",
         "add_failed": "Kunne ikke legge til offiser.",
         "invalid_rank": "Ugyldig grad spesifisert.",
         "higher_rank": "Du kan ikke forfremme noen til en høyere grad enn deg selv.",
-        "termination_notice": "En offiser har blitt avsluttet fra tjenesten.",
-        "callsign_notice": "Offisers kallesignal oppdatert: {callsign}",
-        "terminated_notice": "Du har blitt avsluttet fra politistyrken.",
+        "termination_notice": "En offiser har blitt avskjediget fra styrken.",
+        "callsign_notice": "Offiserens kallesignal oppdatert: {callsign}",
+        "terminated_notice": "Du har blitt avskjediget fra politiet.",
         "sync_success": "Synkroniserte {count} politioffiserer.",
         "no_permission": "Du har ikke tillatelse til å bruke denne kommandoen.",
         "officers": {
@@ -31,11 +31,11 @@
             "rank": "Grad",
             "callsign": "Kallesignal",
             "status": "Status",
-            "hired_date": "Ansatt Dato",
+            "hired_date": "Ansettelsesdato",
             "current_rank": "Nåværende Grad",
             "update_callsign": "Oppdater Kallesignal",
             "update_rank": "Oppdater Grad",
-            "terminate": "Avslutt Offiser",
+            "terminate": "Avskjedig Offiser",
             "enter_callsign": "Skriv inn nytt kallesignal",
             "select_rank": "Velg ny grad"
         },
@@ -61,13 +61,13 @@
             "active_callsigns": "Aktive Kallesignal"
         },
         "confirm": {
-            "terminate_title": "Avslutt Offiser",
-            "terminate_message": "Er du sikker på at du vil avslutte denne offiseren? Denne handlingen kan ikke angres.",
+            "terminate_title": "Avskjedig Offiser",
+            "terminate_message": "Er du sikker på at du vil avskjedige denne offiseren? Denne handlingen kan ikke angres.",
             "yes": "Ja",
             "no": "Nei"
         },
         "notifications": {
-            "success": "Suksess",
+            "success": "Vellykket",
             "error": "Feil",
             "info": "Informasjon"
         }
